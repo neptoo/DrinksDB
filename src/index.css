@@ -198,7 +198,7 @@ Error
 }
 /* 
 ====== 
-Drinks List 
+Cocktails List 
 ======
 */
 
@@ -213,7 +213,7 @@ Drinks List
   margin-bottom: 3.5rem;
   margin-top: 1rem;
 }
-.Drinks-center {
+.cocktails-center {
   width: var(--smallWidth);
   margin: 0 auto;
   max-width: var(--fullWidth);
@@ -223,17 +223,17 @@ Drinks List
   /* align-items: start; */
 }
 @media screen and (min-width: 576px) {
-  .Drinks-center {
+  .cocktails-center {
     grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
   }
 }
 /* 
 ====== 
-Drink 
+Cocktail 
 ======
 */
 
-.Drink {
+.cocktail {
   background: var(--mainWhite);
   margin-bottom: 2rem;
   box-shadow: var(--lightShadow);
@@ -242,27 +242,27 @@ Drink
   grid-template-rows: auto 1fr;
   border-radius: var(--mainBorderRadius);
 }
-.Drink:hover {
+.cocktail:hover {
   box-shadow: var(--darkShadow);
 }
-.Drink img {
-  height: 20rem;
+.cocktail img {
+  height: 18rem;
   object-fit: cover;
   border-top-left-radius: var(--mainBorderRadius);
   border-top-right-radius: var(--mainBorderRadius);
 }
-.Drink-footer {
+.cocktail-footer {
   padding: 1.5rem;
 }
-.Drink-footer h3,
-.Drink-footer h4,
-.Drink-footer p {
+.cocktail-footer h3,
+.cocktail-footer h4,
+.cocktail-footer p {
   margin-bottom: 0.3rem;
 }
-.Drink-footer h3 {
-  font-size: 2rem;
+.cocktail-footer h3 {
+  font-size: 1.8rem;
 }
-.Drink-footer p {
+.cocktail-footer p {
   color: var(--darkGrey);
   margin-bottom: 0.5rem;
 }
@@ -305,11 +305,11 @@ Form
 }
 /* 
 ====== 
-Drink
+Cocktail
 ======
 */
 
-.Drink-section {
+.cocktail-section {
   text-align: center;
 }
 .drink {

@@ -23,3 +23,7 @@ www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
 
 Lookup full cocktail details by id
 www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007
+
+
+
+因为以上接口访问过慢，更换为 themealdb api
