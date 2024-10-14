@@ -41,8 +41,8 @@ const AppProvider = ({ children }) => {
           return {
             id: idDrink,
             name: strDrink,
-            category: strAlcoholic,
-            area: strGlass,
+            category: strGlass,
+            area: strAlcoholic,
             image: strDrinkThumb,
           };
         });
